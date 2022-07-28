@@ -1,0 +1,46 @@
+.bg {
+    background: url(src\assets\bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg h1 {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bg label {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bg input {
+    background-color: black;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: maroon;
+}
+
+.bg input:hover {
+    background-color: white;
+}
+
+.bg input::placeholder {
+    color: lightgray;
+}
+
+.bg input:hover::placeholder {
+    color: black;
+}
+
+.bg form {
+    width: 173%;
+    margin-left: 25%;
+}
+
+.bg form button {
+    margin-bottom: 13px;
+    margin-left: 12%;
+    width: 134px;
+}

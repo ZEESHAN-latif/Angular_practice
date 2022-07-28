@@ -1,0 +1,21 @@
+.p {
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}
+
+.navbar-nav a:hover {
+    background-color: maroon;
+    border-radius: 8%;
+    color: aquamarine;
+}
+
+.navbar-brand:hover {
+    font-size: larger;
+    color: maroon;
+}

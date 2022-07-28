@@ -1,0 +1,65 @@
+.bg {
+    background: url(src\assets\bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg h1 {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bg label {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bg input {
+    background-color: black;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: maroon;
+}
+
+.bg input:hover {
+    background-color: white;
+}
+
+.bg input::placeholder {
+    color: wheat;
+}
+
+.bg input:hover::placeholder {
+    color: black;
+}
+
+.bg form {
+    width: 173%;
+    margin-left: 25%;
+}
+
+.bg form button {
+    margin-bottom: 13px;
+    /* margin-left: 140px; */
+}
+
+.form-label {
+    color: maroon;
+}
+
+.loginlink {
+    /* background: rgba(255, 40, 30, 0.5); */
+    background-color: black;
+    padding: 4px;
+    margin-left: 4px;
+    color: wheat;
+}
+
+.loginlink:hover {
+    /* background: rgba(255, 40, 30, 0.5); */
+    background-color: white;
+    padding: 6px;
+    margin-left: 4px;
+    color: blue;
+}
