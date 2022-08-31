@@ -7,10 +7,9 @@ import {RestoService} from '../resto.service'
   styleUrls: ['./list-resto.component.css']
 })
 export class ListRestoComponent implements OnInit {
-  collection: any =[];
 
   constructor(private resto:RestoService) { }
-
+  collection: any =[];
   ngOnInit(): void {
     this.resto.getlist().subscribe((result)=>{
       console.warn(result);
@@ -19,14 +18,13 @@ export class ListRestoComponent implements OnInit {
     })
   }
 
-  deletResto(item:any){
+  deletRestor(item:number){
 console.log(this.collection)
-this.collection.splice(item-1,1)
+
+this.collection.splice(item-1,1);
 this.resto.deleteResto(item).subscribe((result)=>{
 console.warn(result);
-
 })
-
   }
 
 }

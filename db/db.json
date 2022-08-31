@@ -1,0 +1,78 @@
+{
+  "resturants": [
+    {
+      "name": "Mackdonald",
+      "address": "etc Multan road",
+      "email": "mack@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Cockland",
+      "email": "cockland@gmail.com",
+      "address": "100 sector Multan road",
+      "id": 2
+    },
+    {
+      "name": "Almida",
+      "address": "Bahawlpur road near Milad chok",
+      "email": "almida@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Kitchen92",
+      "address": "Opposite post office, Multan road lodhran.",
+      "email": "kitchen92@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Friyland",
+      "email": "friland@gmail.com",
+      "address": "Near Shell pump bwp road, Lodhran.",
+      "id": 5
+    },
+    {
+      "name": "KFC",
+      "email": "Kfc123@gmail.com",
+      "address": "lodhran bypass Multan road lodhran",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "zeeshan",
+      "email": "zee@123.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Zeeshan",
+      "email": "zee123@gmail.com",
+      "password": "0987654321",
+      "id": 2
+    },
+    {
+      "name": "fgxd",
+      "email": "gfdhfyjf",
+      "password": "yftf",
+      "id": 3
+    },
+    {
+      "name": "Zeeshan",
+      "email": "zeeshanlateef84@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Enigmatix",
+      "email": "enigma123@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "admin",
+      "email": "Admin@gmail.com",
+      "password": "admin",
+      "id": 6
+    }
+  ]
+}

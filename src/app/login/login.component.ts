@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import {FormGroup, FormBuilder} from '@angular/forms'
+import {FormGroup, FormControl, FormBuilder, Validators} from '@angular/forms'
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,6 +11,10 @@ import { Router } from '@angular/router';
 export class LoginComponent implements OnInit {
 
   public loginForm! : FormGroup
+  // loginForm = new FormGroup({
+  //   email : new FormControl('',[Validators.required, Validators.email]),
+  //   password : new FormControl('')
+  // })
   constructor(private frmblde: FormBuilder, private http: HttpClient, private router:Router) { }
 
   ngOnInit(): void {
@@ -36,4 +40,8 @@ export class LoginComponent implements OnInit {
       alert("Something went Wrong!!")
     }
   }
+
+//  get mail(){
+//     return this.loginForm.get('email')
+//   }
 }

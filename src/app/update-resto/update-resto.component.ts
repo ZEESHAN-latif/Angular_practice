@@ -11,7 +11,7 @@ import { RestoService} from '../resto.service'
 export class UpdateRestoComponent implements OnInit {
 
   constructor(private route:ActivatedRoute, private resto: RestoService) { }
- 
+  alert = false;
   editresto =new FormGroup ({
     name : new FormControl(''),
     email : new FormControl(''),
@@ -34,7 +34,6 @@ export class UpdateRestoComponent implements OnInit {
         email : new FormControl(this.restodata.email),
         address : new FormControl(this.restodata.address)
       })
-    
     })
   }
 
@@ -42,9 +41,13 @@ export class UpdateRestoComponent implements OnInit {
     console.warn(this.editresto.value);
     this.resto.updateresto(this.route.snapshot.params['id'], this.editresto.value).subscribe((result)=>{
       console.warn("data is ", result);
-      
+      this.editresto.reset({});
+      this.alert=true;
     })
     
   }
 
+  closed(){
+    this.alert=false;
+  }
 }
